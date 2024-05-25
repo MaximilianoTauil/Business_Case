@@ -25,17 +25,3 @@ def cantidad_porcentaje(dataframe, columna):
     
     print(f'Los valores de {columna}:\n{cantidad_columna.to_string(header=False)}')
     print(f'\nEl porcentaje que representa cada valor:\n{porcentaje_columna.to_string(header=False)}')
-
-def cantidad_porcentaje_sum(dataframe, columna_valores,columna_referencia):
-    
-    df_copy = dataframe.copy()
-
-    suma = df_copy[columna_valores].sum()
-
-    porcentaje_columna = round((df_copy[columna_valores]/ suma) * 100, 2)
-
-    df_copy['Porcentaje'] = porcentaje_columna
-    
-    print(f'El valor total de la columna {columna_valores} es:\n\n{suma}')
-    
-    print(f'\nEl porcentaje que representa cada valor es:\n\n{df_copy[[columna_referencia,"Porcentaje"]]}')
