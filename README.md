@@ -1,5 +1,9 @@
 # Proceso de Extracción, Transformación y Carga de datos (ETL) y Resolución de Business Case
 
+## Objetivo
+
+El objetivo de este repositorio es demostrar habilidades en el manejo de datos y la resolución de problemas de negocio a través del proceso de ETL y la resolución de un caso de negocio.
+
 ## Descripción
 
 Este repositorio contiene dos notebooks que documentan un proceso completo de ETL (Extracción, Transformación y Carga de datos) y la resolución de un caso de negocio para la posición de Jr Data Analyst en la empresa NocNoc de Uruguay.
