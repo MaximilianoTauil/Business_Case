@@ -4,6 +4,10 @@
 
 El objetivo de este repositorio es demostrar habilidades en el manejo de datos y la resolución de problemas de negocio a través del proceso de ETL y la resolución de un caso de negocio.
 
+## Objetivo del Caso de Negocio
+
+El objetivo de este caso de negocio es analizar los tiempos de entrega a partir de una base de datos de pedidos y proponer iniciativas para mejorar los tiempos de entrega y el rendimiento general.
+
 ## Descripción
 
 Este repositorio contiene dos notebooks que documentan un proceso completo de ETL (Extracción, Transformación y Carga de datos) y la resolución de un caso de negocio para la posición de Jr Data Analyst en la empresa NocNoc de Uruguay.
